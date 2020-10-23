@@ -32,43 +32,43 @@
     padding: 0;
     background: none;
   }
-  @media only screen and (min-width:820px) {
-    .newsletter-block .newsletter-form {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      align-items: center;
-      -webkit-align-items: center;
-    }
-    .newsletter-block .newsletter-form-header {
-      flex: 2;
-      -webkit-flex: 2;
-      text-align: left;
-    }
-    .newsletter-block .newsletter-form-header-title, .newsletter-block .newsletter-form-header-description p {
-      text-align: right;
-    }
-    .newsletter-block .newsletter-form-header-description p {
-      margin: 10px 0 0;
-    }
-    .newsletter-block .newsletter-form-header-title {
-      font-size: 25px;
-      margin-bottom: 0;
-    }
-    .newsletter-block .newsletter-form-body {
-      flex: 3;
-      -webkit-flex: 3;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      justify-content: flex-end;
-      -webkit-justify-content: flex-end;
-    }
-    .newsletter-block .newsletter-form-fields-wrapper {
-      flex: 2;
-      -webkit-flex: 2;
-    }
-    .newsletter-block .newsletter-form-field-wrapper {
-      width: 95%;
-    }
+@media only screen and (min-width:820px) {
+  .newsletter-block .newsletter-form {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
   }
+  .newsletter-block .newsletter-form-header {
+    flex: 2;
+    -webkit-flex: 2;
+    text-align: left;
+  }
+  .newsletter-block .newsletter-form-header-title, .newsletter-block .newsletter-form-header-description p {
+    text-align: right;
+  }
+  .newsletter-block .newsletter-form-header-description p {
+    margin: 10px 0 0;
+  }
+  .newsletter-block .newsletter-form-header-title {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .newsletter-block .newsletter-form-body {
+    flex: 3;
+    -webkit-flex: 3;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+  }
+  .newsletter-block .newsletter-form-fields-wrapper {
+    flex: 2;
+    -webkit-flex: 2;
+  }
+  .newsletter-block .newsletter-form-field-wrapper {
+    width: 95%;
+  }
+}
